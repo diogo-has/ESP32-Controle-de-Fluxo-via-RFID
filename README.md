@@ -5,7 +5,8 @@ Bibliotecas Usadas:\
 ESPAsyncWebServer\
 AsyncTcp\
 ArduinoJson\
-MFRC522
+MFRC522\
+ESP32Servo
 
 ** Importante:\
 É necessário fazer upload dos arquivos da pasta "data" para a memória do ESP32\
