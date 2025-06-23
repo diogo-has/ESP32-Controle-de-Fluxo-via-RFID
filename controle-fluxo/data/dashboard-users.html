@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="buttons">
+            <label class="tab_selector">
+                <input type="radio" name="tab" id="tab1" onclick="window.location.href='/dashboard-logs'">
+                <img src="./img/door_icon.png" alt="">
+            </label>
+            <label class="tab_selector">
+                <input type="radio" name="tab" id="tab2" onclick="window.location.href='/dashboard-rooms'">
+                <img src="./img/room_icon.png" alt="">
+            </label>
+            <label class="tab_selector">
+                <input type="radio" name="tab" id="tab3" checked>
+                <img src="./img/person_icon.png" alt="">
+            </label>
+        </div>
+        <div class="box">
+            <div class="buttons">
+                <button class="add" onclick="window.location.href = '/new-user'">
+                    Novo
+                </button>
+                <button class="delete" onclick="deleteUser()">
+                    Deletar
+                </button>
+            </div>
+            <div class="entry-logs" id="users-div">
+
+            </div>
+        </div>
+    </div>
+    <script src="./js/users.js"></script>
+</body>
+
+</html>

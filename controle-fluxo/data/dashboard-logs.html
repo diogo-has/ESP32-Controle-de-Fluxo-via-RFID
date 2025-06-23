@@ -10,18 +10,24 @@
     <div class="main">
         <div class="buttons">
             <label class="tab_selector">
-                <input type="radio" name="tab" id="tab1">
+                <input type="radio" name="tab" id="tab1" checked>
+                <img src="./img/door_icon.png" alt="">
+            </label>
+            <label class="tab_selector">
+                <input type="radio" name="tab" id="tab2" onclick="window.location.href='/dashboard-rooms'">
                 <img src="./img/room_icon.png" alt="">
             </label>
             <label class="tab_selector">
-                <input type="radio" name="tab" id="tab1">
+                <input type="radio" name="tab" id="tab3" onclick="window.location.href='/dashboard-users'">
                 <img src="./img/person_icon.png" alt="">
             </label>
         </div>
-        <div class="box" id="entry-logs">
+        <div class="box">
+            <div class="entry-logs" id="entry-logs">
 
+            </div>
         </div>
     </div>
-    <script src="./js/dashboard.js"></script>
+    <script src="./js/logs.js"></script>
 </body>
 </html>

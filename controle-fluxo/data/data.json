@@ -4,16 +4,9 @@
         {
             "id": 1,
             "tag": [227, 2, 85, 26],
-            "name": "João Almeida",
+            "name": "Administrador",
             "clearance": [1, 2, 3, 4, 5],
             "permissions": "admin"
-        },
-        {
-            "id": 2,
-            "tag": [19, 65, 77, 245],
-            "name": "Pedro Henrique",
-            "clearance": [1, 2, 3, 4, 5],
-            "permissions": "user"
         }
     ],
     "rooms":
